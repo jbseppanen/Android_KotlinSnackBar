@@ -35,8 +35,8 @@ fun buyItem(customer: Customer, snack: Snack, qty: Int) {
         }
     }
     if (success) {
-        println("${customer.name} bought $qty ${snack.name}(s).  She has $${customer.cashOnHand} left. There are ${snack.qty} ${snack.name}(s) left.")
+        println("${customer.name} bought $qty ${snack.name}(s) and has $${customer.cashOnHand} left. There are ${snack.qty} ${snack.name}(s) left.")
     } else {
-        println("${customer.name} was not able to buy $qty ${snack.name}(s). She has $${customer.cashOnHand} left. There are ${snack.qty} ${snack.name}(s) left.")
+        println("${customer.name} was not able to buy $qty ${snack.name}(s)and has $${customer.cashOnHand} left. There are ${snack.qty} ${snack.name}(s) left.")
     }
 }

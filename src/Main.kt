@@ -46,7 +46,7 @@ var menuSelection = 0
                 }
                 val menuSelection = Scanner(System.`in`)
                 when(menuSelection.nextInt()){
-                    
+                    // See here for more on how to update this: https://github.com/JoshHalvorson/Android_KotlinSnackBar/blob/master/src/Main.kt
                 }
             }
 

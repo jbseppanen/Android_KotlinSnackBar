@@ -10,8 +10,8 @@ fun main(args: Array<String>) {
     val snackChips = Snack(1, "Chips", 36, 1.75, 1)
     val snackChocolateBar = Snack(2, "Chocolate Bar", 36, 1.00, 1)
     val snackPretzel = Snack(3, "Pretzel", 30, 2.00, 1)
-    val snackSoda = Snack(4, "Soda", 24, 2.50, 1)
-    val snackWater = Snack(5, "Water", 20, 2.75, 1)
+    val snackSoda = Snack(4, "Soda", 24, 2.50, 2)
+    val snackWater = Snack(5, "Water", 20, 2.75, 2)
 
     buyItem(customerJane, snackSoda, 3)
     buyItem(customerJane, snackPretzel, 1)
